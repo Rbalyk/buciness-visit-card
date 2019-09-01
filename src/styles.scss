@@ -3,7 +3,12 @@
 body {
   margin:0;
 }
-
+p{
+  padding: 0 15px;
+}
+.about-text{
+  max-width: 480px;
+}
 h1 {
   font-family: 'Lato', sans-serif;
   font-weight:300;
