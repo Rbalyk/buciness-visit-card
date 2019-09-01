@@ -27,7 +27,8 @@ p,li {
 .header {
   position:relative;
   text-align:center;
-  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  background: #040f4c;
+  //background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   color:white;
 }
 .logo {
@@ -66,7 +67,7 @@ p,li {
   position:relative;
   height:20vh;
   text-align:center;
-  background-color: white;
+  background-color: rgb(195,63,113);
   flex-direction: column;
   .links{
     display: flex;
@@ -86,12 +87,15 @@ p,li {
       width: 40px;
       height: 40px;
     }
+    .linkedin{
+
+    }
     .instagram{
       transform: scale(1.5);
     }
   }
   p{
-    color: #333333;
+    color: #ffffff;
   }
 }
 
